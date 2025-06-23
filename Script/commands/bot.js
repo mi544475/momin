@@ -85,7 +85,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
 
   
    if ((event.body.toLowerCase() == "chup") || (event.body.toLowerCase() == "stop") || (event.body.toLowerCase() == "চুপ কর") || (event.body.toLowerCase() == "chup kor")) {
-     return api.sendMessage("তুই চুপ চুপ কর পাগল ছাগল", threadID);
+     return api.sendMessage("তুই চুপ কর পাগল ছাগল", threadID);
    };
 
   if ((event.body.toLowerCase() == "আসসালামু আলাইকুম") || (event.body.toLowerCase() == "Assalamualaikum") || (event.body.toLowerCase() == "Assalamu alaikum") || (event.body.toLowerCase() == "Salam ")) {
